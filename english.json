@@ -1,0 +1,250 @@
+{
+  "tests": [
+    {
+      "name": "Test 01",
+      "sets": [
+        {
+          "name": "Question 01",
+          "questions": [
+            {
+              "q": "Choose the correct sentence:",
+              "o": [
+                "He go to school",
+                "He goes to school",
+                "He going to school",
+                "He gone to school"
+              ],
+              "a": 1,
+              "e": "Subject 'He' (3rd person singular) needs verb+'s/es' in Simple Present: 'goes'."
+            },
+            {
+              "q": "The synonym of 'Abundant' is —",
+              "o": [
+                "Scarce",
+                "Plenty",
+                "Rare",
+                "Little"
+              ],
+              "a": 1,
+              "e": "'Abundant' means existing in large quantities — synonym: 'Plenty'."
+            },
+            {
+              "q": "The antonym of 'Ancient' is —",
+              "o": [
+                "Old",
+                "Modern",
+                "Historic",
+                "Antique"
+              ],
+              "a": 1,
+              "e": "'Ancient' means very old; its opposite is 'Modern'."
+            },
+            {
+              "q": "Identify the correct passive voice of 'She writes a letter.'",
+              "o": [
+                "A letter is written by her.",
+                "A letter was written by her.",
+                "A letter writes by her.",
+                "A letter is wrote by her."
+              ],
+              "a": 0,
+              "e": "Simple present active → 'is/am/are + V3' in passive: 'A letter is written by her.'"
+            },
+            {
+              "q": "'Rain cats and dogs' means —",
+              "o": [
+                "হালকা বৃষ্টি",
+                "মুষলধারে বৃষ্টি",
+                "বৃষ্টি নেই",
+                "তুষারপাত"
+              ],
+              "a": 1,
+              "e": "'Rain cats and dogs' একটি idiom, অর্থ মুষলধারে বৃষ্টি হওয়া।"
+            },
+            {
+              "q": "Fill in the blank: I have been living here ___ 2015.",
+              "o": [
+                "for",
+                "since",
+                "from",
+                "at"
+              ],
+              "a": 1,
+              "e": "নির্দিষ্ট সময়বিন্দু বোঝাতে 'since' ব্যবহৃত হয় (since 2015)।"
+            },
+            {
+              "q": "Choose the correct spelling:",
+              "o": [
+                "Recieve",
+                "Receive",
+                "Receeve",
+                "Receve"
+              ],
+              "a": 1,
+              "e": "সঠিক বানান 'Receive' — নিয়ম: i before e except after c তে ব্যতিক্রম।"
+            },
+            {
+              "q": "The plural form of 'Child' is —",
+              "o": [
+                "Childs",
+                "Children",
+                "Childes",
+                "Childrens"
+              ],
+              "a": 1,
+              "e": "'Child' এর plural একটি অনিয়মিত রূপ — 'Children'।"
+            },
+            {
+              "q": "Which is a preposition?",
+              "o": [
+                "Quickly",
+                "Under",
+                "Beautiful",
+                "Run"
+              ],
+              "a": 1,
+              "e": "'Under' স্থান/অবস্থান বোঝায়, এটি একটি preposition।"
+            },
+            {
+              "q": "Choose the correctly punctuated sentence:",
+              "o": [
+                "Whats your name",
+                "What's your name?",
+                "Whats your name?",
+                "What's your name"
+              ],
+              "a": 1,
+              "e": "সংকোচনে apostrophe এবং প্রশ্নবোধক বাক্যে প্রশ্নচিহ্ন প্রয়োজন: \"What's your name?\""
+            },
+            {
+              "q": "The comparative form of 'Good' is —",
+              "o": [
+                "Gooder",
+                "Better",
+                "Best",
+                "More good"
+              ],
+              "a": 1,
+              "e": "'Good' এর অনিয়মিত comparative রূপ 'Better'।"
+            },
+            {
+              "q": "Choose the correct article: I saw ___ elephant.",
+              "o": [
+                "a",
+                "an",
+                "the",
+                "no article"
+              ],
+              "a": 1,
+              "e": "স্বরধ্বনি দিয়ে শুরু শব্দের আগে 'an' ব্যবহৃত হয় (elephant)।"
+            },
+            {
+              "q": "The synonym of 'Happy' is —",
+              "o": [
+                "Sad",
+                "Joyful",
+                "Angry",
+                "Tired"
+              ],
+              "a": 1,
+              "e": "'Happy' এর সমার্থক শব্দ 'Joyful'।"
+            },
+            {
+              "q": "Identify the noun in: 'The dog barked loudly.'",
+              "o": [
+                "barked",
+                "loudly",
+                "dog",
+                "the"
+              ],
+              "a": 2,
+              "e": "'Dog' একটি ব্যক্তি/বস্তু/প্রাণীর নাম, তাই এটি noun।"
+            },
+            {
+              "q": "Choose correct: She ___ to the market yesterday.",
+              "o": [
+                "go",
+                "goes",
+                "went",
+                "going"
+              ],
+              "a": 2,
+              "e": "Past tense বোঝাতে 'went' (go এর past form) ব্যবহৃত হবে।"
+            },
+            {
+              "q": "The meaning of the idiom 'Break the ice' is —",
+              "o": [
+                "শুরু করা কথোপকথন",
+                "বরফ ভাঙা",
+                "রাগ করা",
+                "ঝগড়া করা"
+              ],
+              "a": 0,
+              "e": "'Break the ice' মানে কোনো নতুন পরিস্থিতিতে কথোপকথন শুরু করা।"
+            },
+            {
+              "q": "Choose the correct conjunction: I stayed home ___ it was raining.",
+              "o": [
+                "but",
+                "because",
+                "or",
+                "although"
+              ],
+              "a": 1,
+              "e": "কারণ বোঝাতে 'because' ব্যবহৃত হয়।"
+            },
+            {
+              "q": "The antonym of 'Increase' is —",
+              "o": [
+                "Decrease",
+                "Grow",
+                "Expand",
+                "Rise"
+              ],
+              "a": 0,
+              "e": "'Increase' এর বিপরীত শব্দ 'Decrease'।"
+            },
+            {
+              "q": "Fill in: He is good ___ mathematics.",
+              "o": [
+                "at",
+                "in",
+                "on",
+                "of"
+              ],
+              "a": 0,
+              "e": "কোনো বিষয়ে দক্ষতা বোঝাতে 'good at' ব্যবহৃত হয়।"
+            },
+            {
+              "q": "Choose the correct indirect speech: He said, 'I am busy.'",
+              "o": [
+                "He said that he is busy.",
+                "He said that he was busy.",
+                "He says that he was busy.",
+                "He said he busy."
+              ],
+              "a": 1,
+              "e": "Reported speech এ tense এক ধাপ পিছিয়ে যায়: 'am' → 'was'।"
+            }
+          ]
+        },
+        {
+          "name": "Question 02",
+          "questions": [
+            {
+              "q": "'Honesty is the best policy' বাক্যটির বাংলা অর্থ কী?",
+              "o": [
+                "সততা একটি ভালো গুণ",
+                "সততাই সর্বোৎকৃষ্ট নীতি",
+                "সততা কঠিন কাজ",
+                "সততা মূল্যবান"
+              ],
+              "a": 1,
+              "e": "এই প্রবাদটির প্রচলিত বাংলা অনুবাদ 'সততাই সর্বোৎকৃষ্ট নীতি'।"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
