@@ -443,25 +443,31 @@ function openTestDetail(subjectIdx, testIdx, setIdx) {
   document.getElementById('testDetailTitle').textContent = '📄 ' + s.name + ' — ' + t.name + ' — ' + st.name;
   document.getElementById('testDetailMeta').textContent = 'মোট প্রশ্ন: ' + toBn(st.questions.length);
 
-  const hist = loadHistory();
-  const attemptsForTest = hist.filter(r => r.subjectName === s.name && r.testName === t.name && r.setName === st.name);
   const lastArea = document.getElementById('lastResultArea');
   const startBtn = document.getElementById('startOrAgainBtn');
+  const setIsWritten = st.questions.length > 0 && !Array.isArray(st.questions[0].o);
 
-  if (attemptsForTest.length === 0) {
-    lastArea.innerHTML = '<div class="lastResultBox"><div class="lrTitle">এখনো এই টেস্ট দেননি</div></div>';
-    startBtn.textContent = 'টেস্ট শুরু করুন';
+  if (setIsWritten) {
+    lastArea.innerHTML = '';
+    startBtn.textContent = 'Study Now';
   } else {
-    const last = attemptsForTest[0]; // newest first
-    const mins = Math.floor((last.timeTakenSeconds||0)/60);
-    const secs = (last.timeTakenSeconds||0)%60;
-    lastArea.innerHTML = '<div class="lastResultBox">' +
-      '<div class="lrTitle">সর্বশেষ ফলাফল (' + last.date + ')</div>' +
-      '<div class="lrScore">' + last.score.toFixed(2) + ' / ' + last.maxScore + '</div>' +
-      '<div style="font-size:13px;color:#374151;margin-top:6px;">সঠিক: ' + last.correct + ' • ভুল: ' + last.wrong + ' • বাদ: ' + last.skipped + '</div>' +
-      '<div style="font-size:13px;color:#374151;margin-top:2px;">সময় লেগেছে: ' + toBn(mins) + ' মিনিট ' + toBn(secs) + ' সেকেন্ড</div>' +
-      '</div>';
-    startBtn.textContent = 'Test Again';
+    const hist = loadHistory();
+    const attemptsForTest = hist.filter(r => r.subjectName === s.name && r.testName === t.name && r.setName === st.name);
+    if (attemptsForTest.length === 0) {
+      lastArea.innerHTML = '<div class="lastResultBox"><div class="lrTitle">এখনো এই টেস্ট দেননি</div></div>';
+      startBtn.textContent = 'টেস্ট শুরু করুন';
+    } else {
+      const last = attemptsForTest[0]; // newest first
+      const mins = Math.floor((last.timeTakenSeconds||0)/60);
+      const secs = (last.timeTakenSeconds||0)%60;
+      lastArea.innerHTML = '<div class="lastResultBox">' +
+        '<div class="lrTitle">সর্বশেষ ফলাফল (' + last.date + ')</div>' +
+        '<div class="lrScore">' + last.score.toFixed(2) + ' / ' + last.maxScore + '</div>' +
+        '<div style="font-size:13px;color:#374151;margin-top:6px;">সঠিক: ' + last.correct + ' • ভুল: ' + last.wrong + ' • বাদ: ' + last.skipped + '</div>' +
+        '<div style="font-size:13px;color:#374151;margin-top:2px;">সময় লেগেছে: ' + toBn(mins) + ' মিনিট ' + toBn(secs) + ' সেকেন্ড</div>' +
+        '</div>';
+      startBtn.textContent = 'Test Again';
+    }
   }
 
   startBtn.onclick = () => startTest(subjectIdx, testIdx, setIdx);
@@ -577,7 +583,7 @@ function renderWrittenCard(q) {
   if (!revealed[current]) {
     const btn = document.createElement('button');
     btn.className = 'revealBtn';
-    btn.textContent = '👁️ উত্তর দেখুন';
+    btn.textContent = 'উত্তর দেখুন';
     btn.addEventListener('click', () => { revealed[current] = true; render(); });
     wrap.appendChild(btn);
   } else {
@@ -588,7 +594,7 @@ function renderWrittenCard(q) {
     wrap.appendChild(ansDiv);
     const hideBtn = document.createElement('button');
     hideBtn.className = 'revealBtn hideBtn';
-    hideBtn.textContent = '🙈 উত্তর লুকান';
+    hideBtn.textContent = 'উত্তর লুকান';
     hideBtn.addEventListener('click', () => { revealed[current] = false; render(); });
     wrap.appendChild(hideBtn);
   }

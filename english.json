@@ -1,8 +1,53 @@
 {
   "tests": [
     {
-      "name": "Test 01",
+      "name": "Part 01",
       "sets": [
+        {
+          "name": "Written Study",
+          "questions": [
+            {
+              "q": "Explain the basic concept of Tense with examples.",
+              "answer": "Tense indicates the time of an action- Present, Past, or Future- and each has four forms: Indefinite, Continuous, Perfect, and Perfect Continuous. Present Indefinite: I write. Present Continuous: I am writing. Present Perfect: I have written. Present Perfect Continuous: I have been writing. Past Indefinite: I wrote. Past Continuous: I was writing. Past Perfect: I had written. Future Indefinite: I shall/will write. Future Continuous: I shall/will be writing. Future Perfect: I shall/will have written. Correct tense usage depends on the time frame of the action and whether it is ongoing, completed, or habitual."
+            },
+            {
+              "q": "Explain the rules for converting Active Voice to Passive Voice.",
+              "answer": "To convert Active to Passive Voice: the object of the active sentence becomes the subject of the passive sentence; the verb is changed to its past participle form and 'be' verb (is/am/are/was/were/been) is added according to tense; the subject of the active sentence becomes the object, preceded by 'by'. Example: Active- 'She writes a letter.' Passive- 'A letter is written by her.' For sentences with modal verbs (can, could, may, might, must), the structure becomes: modal + be + past participle. Example: Active- 'He can solve the problem.' Passive- 'The problem can be solved by him.' Imperative sentences follow a different rule: 'Let + object + be + past participle', e.g., 'Open the door' becomes 'Let the door be opened.'"
+            },
+            {
+              "q": "Explain the rules for changing Direct Speech to Indirect Speech.",
+              "answer": "In Direct to Indirect Speech conversion, three main changes occur: (1) Reporting verb changes based on the type of sentence- 'said to' becomes 'told' for assertive sentences, 'asked' for interrogative sentences, and appropriate verbs (requested, ordered, advised) for imperative sentences. (2) Tense generally shifts backward (Present Indefinite to Past Indefinite, Present Perfect to Past Perfect, etc.), unless the reporting verb is in present tense or the statement is a universal truth. (3) Pronouns and time/place expressions change accordingly (today→that day, here→there, now→then, this→that, tomorrow→the next day). Example: Direct- He said, 'I am reading a book.' Indirect- He said that he was reading a book."
+            },
+            {
+              "q": "Describe the eight Parts of Speech in English grammar.",
+              "answer": "The eight parts of speech are: (1) Noun- names a person, place, or thing (e.g., Dhaka, book); (2) Pronoun- replaces a noun (e.g., he, she, it); (3) Verb- expresses an action or state (e.g., run, is); (4) Adjective- describes a noun (e.g., beautiful, tall); (5) Adverb- modifies a verb, adjective, or another adverb (e.g., quickly, very); (6) Preposition- shows relationship between a noun/pronoun and other words (e.g., in, on, at); (7) Conjunction- connects words, phrases, or clauses (e.g., and, but, because); (8) Interjection- expresses sudden feeling (e.g., Alas!, Wow!). Understanding these categories is fundamental for correct sentence construction and grammatical analysis."
+            },
+            {
+              "q": "Explain the rules for using Articles (a, an, the) in English.",
+              "answer": "'A' and 'an' are indefinite articles used before singular countable nouns when referring to something non-specific; 'a' is used before consonant sounds and 'an' before vowel sounds (based on pronunciation, not spelling)- e.g., 'a university' (sounds like 'yu'), 'an hour' (silent h). 'The' is the definite article, used when referring to something specific or already known- e.g., 'The sun rises in the east,' 'the book on the table' (a specific book). Articles are generally omitted before proper nouns, uncountable nouns in a general sense, and plural nouns used generally (e.g., 'Books are our best friends,' not 'The books')."
+            },
+            {
+              "q": "Explain the rule of Subject-Verb Agreement with examples.",
+              "answer": "Subject-Verb Agreement means the verb must agree with its subject in number and person. A singular subject takes a singular verb, and a plural subject takes a plural verb. Example: 'He goes to school' (singular), 'They go to school' (plural). When the subject is joined by 'and,' the verb is usually plural- e.g., 'Ram and Shyam are friends.' When subjects are joined by 'or/nor,' the verb agrees with the nearer subject- e.g., 'Either he or his friends are responsible.' Collective nouns (team, family, jury) take a singular verb when referring to the group as a unit, and a plural verb when referring to individual members. Indefinite pronouns like 'each,' 'everyone,' 'somebody' always take singular verbs."
+            },
+            {
+              "q": "Explain common Preposition usage rules with examples.",
+              "answer": "Prepositions show the relationship between a noun/pronoun and other elements in a sentence, especially regarding time, place, and direction. For time: 'in' is used for months, years, and seasons (in June, in 2024); 'on' is used for specific days and dates (on Monday, on 21st February); 'at' is used for specific times (at 5 o'clock). For place: 'in' is used for enclosed spaces (in a room); 'on' is used for surfaces (on the table); 'at' is used for specific points (at the corner). Certain verbs and adjectives are fixed with particular prepositions (called 'preposition collocations')- e.g., 'good at,' 'afraid of,' 'depend on,' 'interested in.' These combinations must often be memorized as fixed expressions."
+            },
+            {
+              "q": "What are Idioms and Phrases? Explain with examples and learning strategy.",
+              "answer": "An idiom is a group of words whose meaning cannot be understood from the individual words but has a special, figurative meaning as a whole. Examples: 'Rain cats and dogs' means to rain very heavily; 'Break the ice' means to initiate conversation in an awkward situation; 'A piece of cake' means something very easy. Since idioms cannot be translated literally, the best learning strategy is to memorize them along with their meanings and practice using them in example sentences, rather than trying to understand them word by word. In BCS and job exams, idioms are frequently tested by giving the idiom and asking for its correct meaning among options."
+            },
+            {
+              "q": "Explain the strategy for solving Synonym and Antonym questions.",
+              "answer": "A synonym is a word with the same or nearly the same meaning as another word (e.g., 'Abundant' means plentiful, so its synonym is 'Plentiful' or 'Ample'). An antonym is a word with the opposite meaning (e.g., the antonym of 'Ancient' is 'Modern'). To solve these questions effectively: build vocabulary systematically by learning words in groups/themes rather than isolated memorization; pay attention to the root word and prefixes/suffixes, which often hint at meaning (e.g., 'un-' or 'in-' often indicate negation, giving antonym clues); and practice with previous years' exam questions since certain high-frequency words repeat across various job exams."
+            },
+            {
+              "q": "Explain the basic Punctuation rules in English.",
+              "answer": "Punctuation marks help clarify meaning and structure in writing. A full stop (.) ends a declarative or imperative sentence. A comma (,) separates items in a list, clauses, or adds a pause. A question mark (?) ends an interrogative sentence. An exclamation mark (!) expresses strong emotion. A semicolon (;) connects two closely related independent clauses without a conjunction. A colon (:) introduces a list, explanation, or quotation. An apostrophe (') shows possession (e.g., Karim's book) or forms contractions (e.g., don't, it's). Quotation marks (\" \") enclose direct speech or quoted material. Correct punctuation is essential for both clarity and grammatical correctness in formal writing and exams."
+            }
+          ]
+        },
         {
           "name": "Question 01",
           "questions": [
